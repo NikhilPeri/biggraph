@@ -1,0 +1,3 @@
+[
+  "tests/test_graph.py::TestGraph::()::test_init_creates_new_empty_graph"
+]

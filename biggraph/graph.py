@@ -3,9 +3,6 @@ import dask.array as da
 
 class Graph(object):
 
-    def __init__(self):
-        self.nodes = da.array([])
-        self.edges = da.array([[]])
-
-    def edge(self, node_a, node_b):
-        return self.
+    def __init__(self, max_partition_size=1e4, nodes=da.array([]), edges=da.array([[]])):
+        self.nodes = nodes
+        self.edges = edges
